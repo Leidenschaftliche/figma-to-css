@@ -1,1 +1,1 @@
-#This is a sample app using figma tool
+# This is a sample app using figma tool
