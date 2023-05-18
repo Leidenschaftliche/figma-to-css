@@ -1,34 +1,62 @@
-.thirdPage {
-    /* Testimonial / 7 */
+.thirdpage {
     height: 896px;
+
+    /* Brand / Turquoise 100 */
+
     background: #D5FAFC;
 
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    position: relative;
 }
 
-.quoteMark {
-    position: relative;
+.quote-mark {
+    position: absolute;
     width: 143px;
     height: 120px;
     left: 165px;
     top: 64px;
 }
 
-.heading {
+.quote-mark img {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0.44%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Brand / Turquoise */
+
+    opacity: 0.3;
+
+}
+
+.page3heading {
+    /* Section Heading */
+
+
     /* Auto layout */
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
 
-    position: relative;
+    position: absolute;
     width: 445px;
     height: 168px;
     left: 260px;
     top: 120px;
+
 }
 
-.headingChild {
+.page3headingself {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -37,29 +65,35 @@
 
     width: 445px;
     height: 128px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
-.section3Title {
-    width: 445px;
-    height: 128px;
+.page3headingself h2 {
 
     /* Heading / H2 */
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
-    /* or 133% */
-
     font-feature-settings: 'salt' on, 'liga' off;
-
-    /* Text / Gray 900 */
-
     color: #18191F;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
 }
 
-.description {
+.page3heading-desc {
     /* Description */
 
 
@@ -80,16 +114,26 @@
     /* Text / Gray 900 */
 
     color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
-.testimonialone {
+.testimonial_one {
+    /* Testimonial 1 */
+    /* Auto layout */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 32px;
     gap: 32px;
 
-    position: relative;
+    position: absolute;
     width: 445px;
     height: 340px;
     left: 735px;
@@ -102,25 +146,25 @@
 
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 8px;
+    position: absolute;
 }
 
-.airbnblogocss {
+.logo_one {
     width: 130px;
     height: 40px;
     flex: none;
     order: 0;
-    flex-grow: 0;
 }
 
-.airbnblogoitself {
-    position: relative;
+.logo_one img {
+
     left: -0.02%;
     right: 0.34%;
     top: -0.07%;
     bottom: 0%;
 }
 
-.airbnbcontent {
+.content_one {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -138,15 +182,32 @@
     flex-grow: 0;
 }
 
-.airbnbquote {
+.quote-marks {
     width: 16px;
     height: 14px;
+
+    opacity: 0.3;
+
+    /* Inside auto layout */
+
+    flex: none;
     order: 0;
+    flex-grow: 0;
 }
 
-.persDetail {
-    /* Auto layout */
+.quote-marks img {
+    width: 16px;
+    height: 14px;
+    left: 0%;
+    right: 0.44%;
+    top: 0%;
+    bottom: 0%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
+.feedback_one {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -162,9 +223,10 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+
 }
 
-.persText {
+.feedback_one p {
     width: 349px;
     height: 128px;
 
@@ -188,10 +250,9 @@
 
     flex: none;
     order: 0;
-    flex-grow: 0;
 }
 
-.persParent {
+.person_details_one {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -201,10 +262,14 @@
     height: 52px;
 
 
+    /* Inside auto layout */
 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
-.persName {
+.person_details_one sub {
     width: 114px;
     height: 28px;
 
@@ -224,13 +289,20 @@
     color: #18191F;
 
 
+    /* Inside auto layout */
 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.persPosition {
+.person_details_one p {
+    /* CEO, Airbnb */
+
+
     width: 82px;
     height: 24px;
-    margin-top: -20px;
+
     /* Lead / Lead 2 */
 
     font-family: 'Inter';
@@ -245,6 +317,11 @@
     /* Text / Gray 700 */
 
     color: #969BAB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
-
-
