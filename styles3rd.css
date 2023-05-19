@@ -1,0 +1,710 @@
+.thirdpage {
+    height: 896px;
+
+    /* Brand / Turquoise 100 */
+
+    background: #D5FAFC;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    position: relative;
+}
+
+.quote-mark {
+    position: absolute;
+    width: 143px;
+    height: 120px;
+    left: 165px;
+    top: 64px;
+}
+
+.quote-mark img {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0.44%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Brand / Turquoise */
+
+    opacity: 0.3;
+
+}
+
+.page3heading {
+    /* Section Heading */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 445px;
+    height: 168px;
+    left: 260px;
+    top: 120px;
+
+}
+
+.page3headingself {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 445px;
+    height: 128px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.page3headingself h2 {
+
+    /* Heading / H2 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.page3heading-desc {
+    /* Description */
+
+
+    width: 445px;
+    height: 32px;
+
+    /* Lead / Lead 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.testimonial_one {
+    /* Testimonial 1 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 445px;
+    height: 340px;
+    left: 735px;
+    top: 168px;
+
+    /* Default / White */
+
+    background: #FFFFFF;
+    /* Dark Shadow */
+
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    position: absolute;
+}
+
+.logo_one {
+    width: 130px;
+    height: 40px;
+    flex: none;
+    order: 0;
+}
+
+.logo_one img {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+.content_one {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 381px;
+    height: 204px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.quote-marks {
+    width: 16px;
+    height: 14px;
+
+    opacity: 0.3;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.quote-marks img {
+    width: 16px;
+    height: 14px;
+    left: 0%;
+    right: 0.44%;
+    top: 0%;
+    bottom: 0%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.feedback_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 349px;
+    height: 204px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.feedback_one p {
+    width: 349px;
+    height: 128px;
+
+    /* Lead / Lead 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+}
+
+.person_details_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 111px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.person_details_one sub {
+    width: 114px;
+    height: 28px;
+
+    /* Subtitle / Subtitle 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.person_details_one p {
+    /* CEO, Airbnb */
+
+
+    width: 82px;
+    height: 24px;
+
+    /* Lead / Lead 2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 700 */
+
+    color: #969BAB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.testimonial_two {
+    /* Testimonial 2 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 350px;
+    height: 276px;
+    left: 735px;
+    top: 540px;
+
+    /* Default / White */
+
+    background: #FFFFFF;
+    /* Dark Shadow */
+
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.logo_two {
+    width: 134px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo_two img {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+.content_two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 286px;
+    height: 140px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.feedback_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 254px;
+    height: 140px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.feedback_two p {
+    /* Feedback */
+
+
+    width: 254px;
+    height: 64px;
+
+    /* Lead / Lead 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.person_details_two {
+    /* Person Details */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 179px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.person_details_two sub {
+    /* Kristin Watson */
+
+
+    width: 131px;
+    height: 28px;
+
+    /* Subtitle / Subtitle 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.person_details_two p {
+    /* Co-Founder, BookMyShow */
+
+
+    width: 179px;
+    height: 24px;
+
+    /* Lead / Lead 2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 700 */
+
+    color: #969BAB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.testimonial_3 {
+    /* Testimonial 3 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 350px;
+    height: 468px;
+    left: 355px;
+    top: 312px;
+
+    /* Default / White */
+
+    background: #FFFFFF;
+    /* Dark Shadow */
+
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.logo_3 {
+    width: 140px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo_3 img {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+.content_3 {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 286px;
+    height: 332px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.feedback_3 {
+    /* Feedback & Person Details */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 254px;
+    height: 332px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.feedback_3 p {
+    /* Feedback */
+
+
+    width: 254px;
+    height: 256px;
+
+    /* Lead / Lead 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.person_details_3 {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 147px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.person_details_3 sub {
+    width: 101px;
+    height: 28px;
+
+    /* Subtitle / Subtitle 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.person_details_3 p {
+    /* Vice President, GoPro */
+
+
+    width: 147px;
+    height: 24px;
+
+    /* Lead / Lead 2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 700 */
+
+    color: #969BAB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0
+}
