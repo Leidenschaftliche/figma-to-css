@@ -157,11 +157,9 @@
 }
 
 .logo_one img {
-
-    left: -0.02%;
-    right: 0.34%;
-    top: -0.07%;
-    bottom: 0%;
+    position: absolute;
+    left: 32px;
+    top: 32px;
 }
 
 .content_one {
@@ -301,6 +299,198 @@
 
 
     width: 82px;
+    height: 24px;
+
+    /* Lead / Lead 2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 700 */
+
+    color: #969BAB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.testimonial_two {
+    /* Testimonial 2 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 350px;
+    height: 276px;
+    left: 735px;
+    top: 540px;
+
+    /* Default / White */
+
+    background: #FFFFFF;
+    /* Dark Shadow */
+
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.logo_two {
+    width: 134px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.logo_two img {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+.content_two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 286px;
+    height: 140px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.feedback_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 254px;
+    height: 140px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.feedback_two p {
+    /* Feedback */
+
+
+    width: 254px;
+    height: 64px;
+
+    /* Lead / Lead 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.person_details_two {
+    /* Person Details */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 179px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.person_details_two sub {
+    /* Kristin Watson */
+
+
+    width: 131px;
+    height: 28px;
+
+    /* Subtitle / Subtitle 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.person_details_two p {
+    /* Co-Founder, BookMyShow */
+
+
+    width: 179px;
     height: 24px;
 
     /* Lead / Lead 2 */
