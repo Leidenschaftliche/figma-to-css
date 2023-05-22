@@ -9,7 +9,7 @@
 
     /* Default / White */
 
-    background: #ffffff;
+    background-color: white;
 
     /* Inside auto layout */
 
@@ -28,7 +28,7 @@
     width: 540px;
     height: 136px;
 
-    background: #FFFFFF;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }

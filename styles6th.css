@@ -1,0 +1,288 @@
+.page6 {
+    height: 491px;
+    
+    /* Brand / Turquoise */
+    
+    background: #2EC5CE;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    position: relative;
+}
+
+.page6_home_container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;/* For disabling overflow*/
+   }
+
+
+.page6Mockup1 {
+    position: relative;
+    width: 232px;
+    height: 464px;
+    left: 779px;
+    top: -93px;
+
+    /* Mobile Mockup Shadow */
+
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+
+.page6phonex {
+    object-fit: cover;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(images/page6/iphonex.png);
+}
+.page6Mockup2 {
+    position: relative;
+    width: 232px;
+    height: 464px;
+    left: 1043px;
+    top: 88px;
+
+    /* Mobile Mockup Shadow */
+
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+
+.page6Content {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+
+    position: absolute;
+    width: 540px;
+    height: 356px;
+    left: 165px;
+    top: calc(50% - 356px/2 + 0.5px);
+
+}
+.page6phonescreen{
+    z-index: -1;
+    position: absolute;
+    left: 6.51%;
+    right: 6.28%;
+    top: 3.02%;
+    bottom: 2.56%;   
+}
+
+.page6ContentCTAmsg {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 540px;
+    height: 232px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.page6ContentCTAmsg_sectH {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 540px;
+    height: 232px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.page6ContentCTAmsg_sectHH {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 540px;
+    height: 128px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.page6ContentCTAmsg_sectHH h2 {
+    /* Section Title */
+
+
+    width: 540px;
+    height: 128px;
+
+    /* Heading / H2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.page6ContentCTAmsg_sectH p {
+    /* Description */
+
+
+    width: 540px;
+    height: 96px;
+
+    /* Lead / Lead 1 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.page6ContentgetApp {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 282px;
+    height: 76px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.page6ContentgetApp p {
+    /* Get the App */
+
+
+    width: 104px;
+    height: 28px;
+
+    /* Subtitle / Subtitle 2 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.page6ContentgetAppBadges {
+    /* Badges */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 282px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.page6ContentgetAppBadges img {
+    width: 135px;
+    height: 40px;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+}
