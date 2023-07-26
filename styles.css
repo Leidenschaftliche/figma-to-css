@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;/**/
+    font-family: 'Inter', sans-serif;
+    /**/
 }
 
-.appLanding{
+.appLanding {
     width: 100%;
     height: 100%;
 }
@@ -120,47 +121,152 @@
 
 /* TRAINER'IN EKLEMİŞ OLDUĞU KISIM */
 
-.page6-trainer{
+.page6-trainer {
     margin-top: 50px;
     background: #2EC5CE;
 }
 
-.page6-content{
+.page6-content {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-.page-6-texts{
+.page-6-texts {
     width: 50%;
     padding: 70px 0;
 }
 
-.page-6texts-title{
+.page-6texts-title {
     font-size: 48px;
 }
 
-.page6-texts-para{
+.page6-texts-para {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-.page-6-phones{
+.page-6-phones {
     width: 50%;
     position: relative;
 }
 
-.phone1-trainer{
+.phone1-trainer {
     width: 200px;
     position: absolute;
     top: 0;
     left: 30px;
 }
 
-.phone2-trainer{
+.phone2-trainer {
     width: 200px;
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.screenWidth {
+    width: 180px;
+    margin-left: 10px;
+
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom: 0px solid;
+}
+
+
+.screenWidth2 {
+    width: 180px;
+    margin-right: 10px;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top: 0px solid;
+}
+
+
+.p6footerforCenter {
+    display: flex;
+    margin-top: 0;
+    background-color: #0B0D17;
+}
+
+.p6footer {
+    height: 280px;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: blue; */
+    min-width: 1111px;
+}
+
+.p6lefts {
+    position: absolute;
+
+    top: 56px;
+    left: 165px;
+    width: 489px;
+    height: 168px;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.p6rights {
+    position: absolute;
+
+    top: 56px;
+    right: 165px;
+    width: 160px;
+    height: 140px;
+    /* background-color: purple; */
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+
+.p6lefts_links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.p6lefts_links a{
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Body / Body 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration:none;
+    color:white;
+}
+.p6lefts p{
+
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    /* Body / Body 2 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p6rights p{
+color: var(--text-gray-300, #D9DBE1);
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Subtitle / Subtitle 2 */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
 }
